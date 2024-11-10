@@ -1,5 +1,13 @@
+import { useEffect } from 'react';
 import '../App.css'
 const HeroSecton=()=>{
+    useEffect(()=>{
+        fetch('https://jsonplaceholder.typicode.com/posts').then((response)=>{
+            return response.json();
+        }).then((data)=>{
+            console.log("response is:",data);
+        })
+    },[]);
     return(
         <main className='hero-section'>
             <div className="hero-content">
