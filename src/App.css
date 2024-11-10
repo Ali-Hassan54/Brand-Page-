@@ -1,0 +1,58 @@
+body{
+    font-family: Poppins;
+}
+.padding{
+    padding: 0 100px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    background-color: #D01C28;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Inter;
+    min-width: 90px;
+    height: 40px;
+    border: none;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.hero-section{
+    padding: 35px 45px;
+    display: flex;
+    justify-content: space-between;
+}
+.hero-content h1{
+    font-size: 108px;
+    font-weight:bold ;
+    line-height: 102px;
+}
+.hero-content p{
+    font-size: 16px;
+    width: 400px;
+    text-align: justify;
+    font-weight:600 ;
+    color: gray;
+}
+.hero-buttons{
+    display: flex;
+    gap: 40px;
+}
+.hero-buttons button{
+   padding:0 10px ;
+}
+.shooping p{
+    font-family: Inter;
+    font-size: 16px;
+    color: gray;
+}
+.brand-icon{
+    display: flex;
+    gap: 20px;
+}
